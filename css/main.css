@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: goldenrod;
+    font-family: 'Montserrat';
+    
+}
+
+#particles-js {
+    background: #262626;
+}
+
+canvas {
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+}
+
+.tabs {
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 300px;
+}
+
+.tabs button {
+    outline: none;
+}
+
+.tabs .active {
+    background-color: goldenrod;
+    color: #000;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.tab-links {
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.7em 0 0.7em 0;
+    background: none;
+    cursor: pointer;
+}
+
+button.active {
+    outline: none;
+    border: none;
+}
+
+.tab-content {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.form-body {
+    position: absolute;
+    top: 50px;
+    right: 130px;
+    width: 550px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 30px 25px 30px;
+}
+
+.form-body label {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.form-body button {
+    outline: none;
+}
+
+form input {
+    padding: 7px;
+    margin: 2em 0em 0em 0em;
+    width: 100%;
+    outline: none;
+    border: none;
+    display: inline;
+}
+
+#cexpm, #cexpy {
+    width: 45%;
+}
+
+#cexpm {
+    float: left;
+}
+
+#cexpy {
+    float: right;
+}
+
+.pay-btn {
+    margin-top: 2em;
+    width: 20%;
+    padding: 1.5%;
+    border-top-left-radius: 5in;
+    border-top-right-radius: 1in;
+    border-bottom-left-radius: 1in;
+    border-bottom-right-radius: 5in;
+    outline: none;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: goldenrod;
+    clear: both;
+}
+
+.checkout-form select {
+    outline: none;
+    padding: 4px;
+    width: 100%;
+}
+
+.wallet {
+    display: inline;
+    margin-right: 20px;
+}
+
+.wallet img {
+    width: 190px;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.nb-btn {
+    width: 40%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .form-body {
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    .tabs {
+        position: relative;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        margin: 80px 0px;
+    }
+
+    .form-body {
+        position: relative;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .pay-btn {
+        width: 40%;
+    }
+
+    .form-body label {
+        font-size: 1.8em;
+    }
+    
+}
